@@ -7,6 +7,7 @@
   <meta content="Kotisivu esimerkki | Nords Oy" property="og:title">
   <meta content="Kotisivu esimerkki | Nords Oy" property="twitter:title">
   <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta name="robots" content="noindex, nofollow">
   <meta content="Webflow" name="generator">
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
   <link href="css/webflow.css" rel="stylesheet" type="text/css">
@@ -160,8 +161,9 @@
             <form method="POST" action="https://formsubmit.co/joose@nords.fi" name="email-form" data-name="Email Form" style="opacity:0" data-w-id="177fb872-ffee-8a9c-cb88-b808376ec6b9" id="email-form" class="form">
               <input type="email" class="form-field w-input" maxlength="256" name="Sahkoposti" data-name="Sahkoposti" placeholder="Sähköposti" id="Sahkoposti">
               <input type="submit" value="Lähetä" data-wait="Odota hetki..." class="button form-button w-button">
+              <input type="hidden" name="_subject" value="Olet saanut uuden hakemuksen (www.nords-esimerkki.fi)">  <!-- Custom subject -->
               <input type="hidden" name="_captcha" value="false">  <!-- Disable reCAPTCHA -->
-              <input type="hidden" name="_next" value="">  <!-- Disable default FormSubit redirect -->
+              <input type="hidden" name="_next" value="">  <!-- Disable default FormSubmit redirect -->
             </form>
             <div class="w-form-done">
               <div>Thank you! Your submission has been received!</div>
@@ -197,7 +199,7 @@
       </div>
       <div class="footer-line"></div>
       <div class="bottom">
-        <div class="small-text centered">Copyright © 2023 <a href="https://www.nords.fi/" target="_blank" class="nords_plug">Nords Oy</a>. All rights reserved.</div>
+        <div class="small-text centered">Copyright © 2023 <a href="https://www.nords.fi/" target="_blank" rel="nofollow" class="nords_plug">Nords Oy</a>. All rights reserved.</div>
         <div class="social">
           <a href="#" class="social-link w-inline-block"><img src="images/fb_1fb.png" alt="Facebook ikoni" class="social-image"></a>
           <a href="#" class="social-link w-inline-block"><img src="images/tw_1tw.png" alt="Twitter ikoni" class="social-image"></a>
