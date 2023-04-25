@@ -23,21 +23,21 @@ h2 {
   line-height: 36px;
 }
 
-.header {
+.section-header {
   justify-content: center;
   align-items: center;
-  padding: 0 3% 100px;
+  padding: 0 3% 80px;
   display: flex;
 }
 
-.container {
+.container-default {
   width: 100%;
   max-width: 1240px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.container.space-below {
+.container-default.space-below {
   margin-bottom: 140px;
 }
 
@@ -202,7 +202,7 @@ h2 {
   margin-bottom: 25px;
 }
 
-.heading-3 {
+.title-card {
   color: #0b0c0d;
   text-align: left;
   margin-top: 0;
@@ -1101,7 +1101,6 @@ h2 {
 
 .content-title {
   color: #0b0c0d;
-  margin-top: 4px;
   font-size: 17px;
   font-weight: 400;
   line-height: 22px;
@@ -1873,6 +1872,7 @@ h2 {
 
 .heading-5 {
   color: #0b0c0d;
+  margin-top: 10px;
   margin-bottom: 16px;
   font-size: 20px;
   font-weight: 600;
@@ -1959,11 +1959,11 @@ h2 {
 }
 
 @media screen and (max-width: 991px) {
-  .header {
+  .section-header {
     padding-top: 40px;
   }
 
-  .container.space-below {
+  .container-default.space-below {
     margin-bottom: 80px;
   }
 
